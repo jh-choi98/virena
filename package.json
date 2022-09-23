@@ -1,0 +1,27 @@
+{
+  "name": "virena",
+  "version": "1.0.0",
+  "description": "video sharing and social media platform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh-choi98/virena.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Juho Choi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jh-choi98/virena/issues"
+  },
+  "homepage": "https://github.com/jh-choi98/virena#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.19.0",
+    "nodemon": "^2.0.19"
+  }
+}
