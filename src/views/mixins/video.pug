@@ -1,8 +1,9 @@
 mixin video(video)
-    a(href=`/videos/${video.id}`).video-mixin
-        div.video-mixin__thumb
-        div.video-mixin__data
-            span.video-mixin__title=video.title
-            div.video-mixin__meta
-                span #{video.owner.name} • 
-                span #{video.meta.views} views
+    div     
+        h4
+            a(href=`/videos/${video.id}`)=video.title
+        ul 
+            li #{video.rating}/5
+            li #{video.comments} comments 
+            li Posted #{video.createdAt}
+            li #{video.views} views
