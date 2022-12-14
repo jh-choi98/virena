@@ -7,7 +7,7 @@
     "url": "git+https://github.com/jh-choi98/virena.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Juho Choi",
   "license": "MIT",
@@ -17,6 +17,7 @@
   "homepage": "https://github.com/jh-choi98/virena#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mongoose": "^6.8.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
